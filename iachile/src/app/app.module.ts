@@ -6,6 +6,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { EmpresaComponent } from './empresa/empresa.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { EmpresaComponent } from './empresa/empresa.component';
     InicioComponent,
     ServiciosComponent,
     ContactoComponent,
-    EmpresaComponent
+    EmpresaComponent,
+    MatToolbarModule
   ],
   imports: [
     BrowserModule
