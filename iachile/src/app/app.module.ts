@@ -13,6 +13,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { ProductosComponent } from './productos/productos.component';
 import { LogoComponent } from './shared/components/logo/logo.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +33,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatToolbarModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatGridListModule
+    MatGridListModule,
+    MatSidenavModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

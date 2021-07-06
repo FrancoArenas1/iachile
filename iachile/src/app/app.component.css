@@ -1,8 +1,28 @@
-.fondo {
-    background-image: url("../assets/img/fondos/ia.jpg");
-    height: 100%;
-    width: 100%;
-}
 .app-tolbar {
     width: 100%;
+}
+.grid-init {
+    height: 100%;
+}
+.logo-init {
+    width: 30% !important;
+}
+.grid-to-left 
+{
+    width: 30%;
+    display: inline;
+}
+.grid-to-right {
+    display:inline;
+}
+
+mat-sidenav-content {
+    background-image: url("../assets/img/fondos/ia.jpg")
+}
+
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+    height: 100%;
+}
+mat-sidenav {
+    width: 250px;
 }
